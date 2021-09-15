@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-09-15T09:05:26.364Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="Lv9mQRbmJoNnsa8mpMsV" version="15.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-15T09:09:13.147Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="H7BPHeQZv26W2vu9Z9jS" version="15.2.7" type="github">
   <diagram id="bhPEXlC3Mke-VyNkPj3K" name="Page-1">
     <mxGraphModel dx="1360" dy="834" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -10,10 +10,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="WCUaTuWKZt8PMg-780Ac-1" value="测序下机原始数据" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="350" y="110" width="120" height="40" as="geometry" />
+          <mxGeometry x="350" y="110" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WCUaTuWKZt8PMg-780Ac-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="WCUaTuWKZt8PMg-780Ac-4" target="WCUaTuWKZt8PMg-780Ac-7">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="WCUaTuWKZt8PMg-780Ac-4" value="体细胞突变检测" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="350" y="400" width="120" height="60" as="geometry" />
+          <mxGeometry x="350" y="290" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="WCUaTuWKZt8PMg-780Ac-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="WCUaTuWKZt8PMg-780Ac-5">
           <mxGeometry relative="1" as="geometry">
@@ -21,7 +24,16 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="WCUaTuWKZt8PMg-780Ac-5" value="质控、数据处理、序列比对" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="335" y="200" width="150" height="40" as="geometry" />
+          <mxGeometry x="335" y="200" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WCUaTuWKZt8PMg-780Ac-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="WCUaTuWKZt8PMg-780Ac-7" target="WCUaTuWKZt8PMg-780Ac-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WCUaTuWKZt8PMg-780Ac-7" value="突变聚类及克隆检测" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="380" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WCUaTuWKZt8PMg-780Ac-9" value="结果可视化及转移关系判定" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="470" width="100" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
